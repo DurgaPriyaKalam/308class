@@ -1,0 +1,15 @@
+package fibonocci;
+import java.util.Scanner;
+
+public class Fibonocci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   int firstnumber=0;
+   int secondnumber=2;
+   
+	
+  
+	}
+	}
+

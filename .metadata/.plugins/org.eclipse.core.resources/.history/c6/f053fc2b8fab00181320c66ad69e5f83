@@ -1,0 +1,25 @@
+package fibonocci;
+import java.util.Scanner;
+
+public class Fibonocci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum=2;
+   int n1=0;
+   int n2=2;
+   System.out.println(n1 + " , ");
+   System.out.println(n2 + " , ");
+   for(int i=0;i<=500;i++)
+   {
+	   int n3=n1+n2;
+	   System.out.println(n3+" , ");
+	   n1=n2;
+	   n2=n3;
+	   sum=sum+n3;
+   }
+   System.out.print("\nTotal sum of the numbers are:" +sum);	
+  
+	}
+	}
+

@@ -1,0 +1,50 @@
+package fibonocci;
+import java.util.Scanner;
+public class Digits {
+
+	
+	
+
+	
+
+}
+
+public class Number
+{
+	public boolean allDigitsOdd(int num)
+	{
+		boolean result=false;
+		int i,j=0,k=0;
+		
+			while(num<0)
+			{
+				i=num%10;
+				if(i%2==0)
+				{
+					j++;
+				}
+				else
+					k++;
+				
+			}
+			if(j==0 && k>0)
+			{
+	           result=true;
+			}
+			else if(j>0)
+			{
+				result=false;
+			}
+			return result;
+		}
+
+}
+
+public static void main(String[] args) {
+	System.out.println("Enter the number:");
+	Scanner sc=new Scanner(System.in);
+  int number=obj.nextInt();
+  Number obj1=new Number();
+  
+}
+}

@@ -1,0 +1,26 @@
+package fibonocci;
+import java.util.Scanner;
+
+public class Fibonocci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   int firstnumber=0;
+   int secondnumber=2;
+   System.out.println("Enter the number of elements of Fibonocci series");
+   Scanner sc=new Scanner(System.in);
+ //  int elementcount=sc.nextInt();
+   System.out.println(firstnumber + " , ");
+   System.out.println(secondnumber + " , ");
+   for(int i=2;i<500;i++)
+   {
+	   int nextnum=firstnumber+secondnumber;
+	   System.out.println(nextnum+" , ");
+	   firstnumber=secondnumber;
+	   secondnumber=firstnumber;
+   }
+	
+  
+	}
+	}
+
